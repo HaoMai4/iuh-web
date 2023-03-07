@@ -12,14 +12,17 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 56px;
+
+    height: 60px;
     width: 1440px;
 }
 
-menu {
+.menu {
     display: flex;
     list-style: none;
     gap: 28px;
 }
 
-.serach-bar {}
+.serach-bar {
+    
+}
