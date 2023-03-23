@@ -1,121 +1,295 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
     <title>Document</title>
+  </head>
 
-</head>
-
-<body>
+  <body>
     <div id="wrapper">
-        <div id="container">
-            <div id="left">
-                <div id="left_above">
-                    <img class="item" src="./image/logo.png" alt="">
-                    <img class="item" src="./image/home.png" alt="">
-                    <img class="item" src="./image/cam.png" alt="">
-                    <img class="item" src="./image/chatting.png" alt="">
-                    <img class="item" src="./image/user.png" alt="">
-                </div>
-
-                <div id="below">
-                    <img src="avatar.png" width="44" alt="">
-                    <img id="setting" src="setting.png" width="44" alt="">
-                </div>
+      <div id="container">
+        <div id="left">
+          <div id="left_above">
+            <div class="item">
+              <img
+                class="item-img item-img-logo"
+                src="./images/logo.png"
+                alt=""
+              />
             </div>
-            
-            <div id="center">
-                <div class="header">
-                    <div class="header-top">
-                        <h1 class="header-title">Metting Title</h1>
-
-                        <button class="header-time-btn">
-                            <span></span>
-                            12:00
-                        </button>
-                    </div>
-
-                    <div class="user">
-                        <img src="./img_big.png" alt="">
-                        <img src="./mic_color.png" alt="">
-                        <P>Benjamin Crawford</P>
-                    </div>
-                    <div class="user">
-                        <img src="./img2.png" alt="">
-                        <img src="./mic_grey_color.png" alt="">
-                        <p>Christian Scott</p>
-                    </div>
-                    </div>
-                </div>
-                    <div class="user">
-                        <img src="./img1.png" alt="">
-                        <img src="./mic_grey_color.png" alt="">
-                        <p>Deborah Chu</p>
-                    </div>
-                <div class="user">
-                    <img src="./img.png" alt="">
-                    <img src="./mic_grey_color.png" alt="">
-                    <p>Jordan Nieves</p>
-                </div>
-                <div class="items">
-                    <img src="./mic_grey_color.png" alt="">
-                    <img src="./cam_color.png" alt="">
-                    <img src="./speaker_grey_color.png" alt="">
-                    <p>End Meeting</p>
-                    <img src="./Button 2179.png" alt="">
-                    <img src="./share.png" alt="">
-                    <img src="./Cham.png" alt="">
-                </div>
+            <div class="item">
+              <img class="item-img" src="./images/home.png" alt="" />
             </div>
-
-
-            <div id="right">
-                <div class="participants-list">
-                    <div class="participants-items">
-                        <div class="participants-users">
-                            <p>Participants</p>
-                            <img src="./avatar 1322.png" alt="">
-                            <p>Benjamin Crawford</p>
-                            <img src="./avatar 1323.png" alt="">
-                            <p>Christian Scott</p>
-                            <img src="./avatar 1324.png" alt="">
-                            <p>Deborah Chu</p>
-                            <img src="./avatar 1325.png" alt="">
-                            <p>Jordan Nieves</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="chat-list">
-                    <div class="chat-user">
-                        <img src="./avatar 1326.png" alt="">
-                        <p>Deborah Chu</p>
-                        <p>1:12 PM</p>
-                        <p>Lorem excepteur magna voluptate exercitation dolore exercitation amet</p>
-                    </div>
-                    <div class="chat-user">
-                        <img src="./avatar 1327.png" alt="">
-                        <p>Jordan Nieves</p>
-                        <p>1:12 PM</p>
-                        <p>Eiusmod laborum culpa est magna cillum sint in elit proident magna anim consecte</p>
-                    </div>
-                    <div class="chat-user">
-                        <img src="./avatar 1328.png" alt="">
-                        <p>Benjamin Crawford</p>
-                        <p>1:12 PM</p>
-
-                    </div>
-                </div>
+            <div class="item">
+              <img class="item-img" src="./images/cam.png" alt="" />
             </div>
+            <div class="item">
+              <img class="item-img" src="./images/chatting.png" alt="" />
+            </div>
+            <div class="item">
+              <img class="item-img" src="./images/user.png" alt="" />
+            </div>
+          </div>
 
+          <div id="below">
+            <img src="./images/avatar.png" width="44" alt="" />
+            <img id="setting" src="./images/setting.png" width="44" alt="" />
+          </div>
         </div>
+        <div id="center">
+          <div class="header">
+            <div class="header-top">
+              <h1 class="header-title">Meeting title</h1>
+              <button class="header-time-btn">
+                <span></span>
+                12:00
+              </button>
+            </div>
+            <div class="header-bottom">
+              <span class="header-internal-tag">
+                <img src="./images/user-icon.png" alt="" />
+                Internal</span
+              >
+              <div class="header-date">
+                <img src="./images/calender_small.png" alt="" />
+                Sep 02, 2022
+              </div>
+              <span class="header-time">08:00 - 09:00 AM</span>
+            </div>
+          </div>
+          <div class="content">
+            <div class="users">
+              <div class="user-big">
+                <div class="user">
+                  <img class="user-img" src="./images/img_big.png" alt="" />
+                  <div class="user-name">
+                    <span></span>
+                    Benjamin Crawford
+                  </div>
+                  <img src="./images/mic_color.png" alt="" class="mic-btn" />
+                </div>
+              </div>
+              <div class="user-small">
+                <div class="user small">
+                  <img class="user-img small" src="./images/img2.png" alt="" />
+                  <div class="user-name small">
+                    <span></span>
+                    Christian Scott
+                  </div>
+                  <img
+                    src="./images/mic_grey_color.png"
+                    alt=""
+                    class="mic-btn small"
+                  />
+                </div>
+                <div class="user small">
+                  <img class="user-img small" src="./images/img1.png" alt="" />
+                  <div class="user-name small">
+                    <span></span>
+                    Deborah Chu
+                  </div>
+                  <img
+                    src="./images/mic_grey_color.png"
+                    alt=""
+                    class="mic-btn small"
+                  />
+                </div>
+                <div class="user small">
+                  <img class="user-img small" src="./images/img.png" alt="" />
+                  <div class="user-name small">
+                    <span></span>
+                    Jordan Nieves
+                  </div>
+                  <img
+                    src="./images/mic_grey_color.png"
+                    alt=""
+                    class="mic-btn small"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="controls">
+              <img src="./images/mic_grey_color.png" alt="" />
+              <img src="./images/cam_color.png" alt="" />
+              <img src="./images/speaker_grey_color.png" alt="" />
+              <button class="btn-end-meeting">End meeting</button>
+              <img src="./images/Button 2179.png" alt="" />
+              <img src="./images/share.png" alt="" />
+              <img src="./images/3Dots.png" alt="" />
+            </div>
+          </div>
+        </div>
+        <div id="right">
+          <div class="right-container">
+            <div class="participants">
+              <div class="participants-header">
+                <div class="participants-title">
+                  <h1>Participants</h1>
+                  <span>4</span>
+                </div>
+                <button><span>+</span> Add</button>
+              </div>
 
+              <div class="participants-list">
+                <div class="participants-item">
+                  <div class="participants-user">
+                    <img
+                      src="./images/avatar 1322.png"
+                      alt=""
+                      class="participants-avatar"
+                    />
+                    <p class="participants-name">Benjamin Crawford</p>
+                  </div>
 
+                  <div class="participants-controls">
+                    <img src="./images/mic1.png" alt="" />
+                    <img src="./images/cam_small.png" alt="" />
+                    <img
+                      style="width: 14px; height: 14px"
+                      src="./images/3DotsBtn.png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <div class="participants-item">
+                  <div class="participants-user">
+                    <img
+                      src="./images/avatar 1323.png"
+                      alt=""
+                      class="participants-avatar"
+                    />
+                    <p class="participants-name">Christian Scott</p>
+                  </div>
+
+                  <div class="participants-controls">
+                    <img src="./images/mic1.png" alt="" />
+                    <img src="./images/cam_small.png" alt="" />
+                    <img
+                      style="width: 14px; height: 14px"
+                      src="./images/3DotsBtn.png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <div class="participants-item">
+                  <div class="participants-user">
+                    <img
+                      src="./images/avatar 1324.png"
+                      alt=""
+                      class="participants-avatar"
+                    />
+                    <p class="participants-name">Deborah Chu</p>
+                  </div>
+
+                  <div class="participants-controls">
+                    <img src="./images/mic2.png" alt="" />
+                    <img src="./images/cam_small.png" alt="" />
+                    <img
+                      style="width: 14px; height: 14px"
+                      src="./images/3DotsBtn.png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <div class="participants-item">
+                  <div class="participants-user">
+                    <img
+                      src="./images/avatar 1325.png"
+                      alt=""
+                      class="participants-avatar"
+                    />
+                    <p class="participants-name">Jordan Nieves</p>
+                  </div>
+
+                  <div class="participants-controls">
+                    <img src="./images/mic1.png" alt="" />
+                    <img src="./images/cam_small.png" alt="" />
+                    <img
+                      style="width: 14px; height: 14px"
+                      src="./images/3DotsBtn.png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="chat">
+              <div class="chat-title">
+                <h1>Chat</h1>
+              </div>
+              <div class="chat-list">
+                <div class="chat-item">
+                  <div class="chat-top">
+                    <div class="chat-avatar-container">
+                      <span></span
+                      ><img
+                        src="./images/avatar 1324.png"
+                        alt=""
+                        class="chat-avatar"
+                      />
+                    </div>
+                    <p class="chat-username">Deborah Chu</p>
+                    <div class="chat-time">1:12 PM</div>
+                  </div>
+                  <div class="chat-bottom">
+                    <p>
+                      Lorem excepteur magna uoluptate exercitation dolore
+                      exercitation amet
+                    </p>
+                  </div>
+                </div>
+                <div class="chat-item">
+                  <div class="chat-top">
+                    <div class="chat-avatar-container">
+                      <span></span>
+                      <img
+                        src="./images/avatar 1325.png"
+                        alt=""
+                        class="chat-avatar"
+                      />
+                    </div>
+                    <p class="chat-username">Jordan Nieves</p>
+                    <div class="chat-time">1:12 PM</div>
+                  </div>
+                  <div class="chat-bottom">
+                    <p>
+                      Eiusmod laborum culpa est magna cillum sint in elit
+                      proident magna anim consecte
+                    </p>
+                  </div>
+                </div>
+                <div class="chat-item">
+                  <div class="chat-top">
+                    <div class="chat-avatar-container">
+                      <span></span>
+                      <img
+                        src="./images/avatar 1322.png"
+                        alt=""
+                        class="chat-avatar"
+                      />
+                    </div>
+                    <p class="chat-username">Benjamin Crawford</p>
+                    <div class="chat-time">1:12 PM</div>
+                  </div>
+                  <div class="chat-bottom">
+                    <p>🥰🥰🥰</p>
+                  </div>
+                </div>
+              </div>
+              <div class="chat-controls">
+                <div class="input-bar">
+                  <input type="text" placeholder="Add a message..." />
+                  <img src="./images/smiley-face.png" alt="" />
+                </div>
+                <img src="./images/send.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-
-</body>
-
+  </body>
 </html>
