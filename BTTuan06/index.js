@@ -32,3 +32,15 @@ start.addEventListener('click', function() {
         interval = setInterval(time, 1000)
     }
 })
+stop.addEventListener('click', function() {
+    if (interval != null) {
+        clearInterval(interval)
+        interval = null
+    }
+})
+reset.addEventListener('click', function() {
+    clearInterval(interval)
+    interval = null
+    second.textContent = "00"
+    minute.textContent = "00"
+})
